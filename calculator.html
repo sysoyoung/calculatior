@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="center">
+        <img src="calc.png" alt="calculator">
+
+        <button id="numb0" onclick="foo0()" >0</button>
+        <button id="dot" onclick="foo_dot()" >•</button>
+        <button id="equal" onclick="foo_equal()" >=</button>
+        <button id="plus" class="signs" onclick="foo_plus()" >+</button>
+
+
+        <button id="numb1" onclick="foo1()" >1</button>
+        <button id="numb2" onclick="foo2()" >2</button>
+        <button id="numb3" onclick="foo3()" >3</button>
+        <button id="minus" class="signs" onclick="foo_minus()" >-</button>
+
+
+        <button id="numb4" onclick="foo4()" >4</button>
+        <button id="numb5" onclick="foo5()" >5</button>
+        <button id="numb6" onclick="foo6()" >6</button>
+        <button id="multi" class="signs" onclick="foo_multi()" >×</button>
+
+
+        <button id="numb7" onclick="foo7()" >7</button>
+        <button id="numb8" onclick="foo8()" >8</button>
+        <button id="numb9" onclick="foo9()" >9</button>
+        <button id="division" class="signs" onclick="foo_division()" >÷</button>
+
+        <button id="left_bracket" class="signs" onclick="foo_leftB()" >(</button>
+        <button id="right_bracket" class="signs" onclick="foo_rightB()" >)</button>
+        <button id="percent" class="signs" onclick="foo_percent()" >%</button>
+        <button id="CE" class="signs" onclick="foo_CE()" >CE</button>
+
+        <div id="result">0</div>
+        <div id="ans"></div>
+    </div>
+</body>
+</html>

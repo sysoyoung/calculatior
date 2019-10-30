@@ -1,0 +1,157 @@
+.center {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    width: 792;
+    height: 425;
+    margin-left: -396px;
+    margin-top: -312px;
+}
+
+button {
+    position: absolute;
+    width: 98px;
+    height: 45px;
+    font-size: 16px;
+    border: 0;
+    outline:none;
+    background-color: #edebeb;
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color: #a8a8a8;
+}
+
+button#numb0 {
+    margin-top: 347px;
+    margin-left: -445px;
+}
+
+button#dot {
+    margin-top: 347px;
+    margin-left: -337px;
+}
+
+button#equal {
+    margin-top: 347px;
+    margin-left: -229px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #1c90e8;
+    color: white;
+}
+
+button#equal:hover{
+    background-color: #6ab0e6;
+}
+
+button#plus {
+    margin-top: 347px;
+    margin-left: -121px;
+    font-size: 20px;
+}
+
+button#numb1 {
+    margin-top: 292px;
+    margin-left: -445px;
+}
+
+button#numb2 {
+    margin-top: 292px;
+    margin-left: -337px;
+}
+
+button#numb3 {
+    margin-top: 292px;
+    margin-left: -229px;
+}
+
+button#minus {
+    margin-top: 292px;
+    margin-left: -121px;
+    font-size: 20px;
+}
+
+button#numb4 {
+    margin-top: 237px;
+    margin-left: -445px;
+}
+
+button#numb5 {
+    margin-top: 237px;
+    margin-left: -337px;
+}
+
+button#numb6 {
+    margin-top: 237px;
+    margin-left: -229px;
+}
+
+button#multi {
+    margin-top: 237px;
+    margin-left: -121px;
+    font-size: 20px;
+}
+
+button#numb7 {
+    margin-top: 182px;
+    margin-left: -445px;
+}
+
+button#numb8 {
+    margin-top: 182px;
+    margin-left: -337px;
+}
+
+button#numb9 {
+    margin-top: 182px;
+    margin-left: -229px;
+}
+
+button#division {
+    margin-top: 182px;
+    margin-left: -121px;
+    font-size: 20px;
+}
+
+button#left_bracket {
+    margin-top: 127px;
+    margin-left: -445px;
+}
+
+button#right_bracket {
+    margin-top: 127px;
+    margin-left: -337px;
+}
+
+button#percent {
+    margin-top: 127px;
+    margin-left: -229px;
+}
+
+button#CE {
+    margin-top: 127px;
+    margin-left: -121px;
+}
+
+.signs {
+    background-color: #c4c4c4;
+}
+
+#result {
+    position: absolute;
+    margin-top: -359px;
+    margin-left: 731px;
+    font-size: 40px;
+    font-family: monospace;
+}
+
+#ans {
+    position: absolute;
+    margin-top: -383px;
+    margin-left: 720px;
+    font-size: 20px;
+    font-family: monospace;
+    color: #8f8f8f;
+}
